@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:tricky_30_widget/selecttable_text.dart';
 
-import 'cupertino_widget.dart';
+import 'interactive_viewer.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SelectTableTextScreen(),
+      home: InteractiveScreen(),
     );
   }
 }
